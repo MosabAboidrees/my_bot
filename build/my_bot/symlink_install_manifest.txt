@@ -1,10 +1,14 @@
+/home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/drive_bot.rviz
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/empty.yaml
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+/home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+/home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+/home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/worlds/obstacles.world
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
