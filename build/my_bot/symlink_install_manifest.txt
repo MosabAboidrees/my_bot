@@ -1,6 +1,7 @@
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/drive_bot.rviz
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/empty.yaml
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+/home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/camera.xacro
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
