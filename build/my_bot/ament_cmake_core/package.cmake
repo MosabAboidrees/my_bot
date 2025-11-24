@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_bot")
 set(my_bot_VERSION "0.0.0")
-set(my_bot_MAINTAINER "MY NAME <my_email@email.com>")
+set(my_bot_MAINTAINER "Josh Newans <my_email@email.com>")
 set(my_bot_BUILD_DEPENDS )
 set(my_bot_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_bot_BUILD_EXPORT_DEPENDS )

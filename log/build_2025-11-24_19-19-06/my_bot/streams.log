@@ -1,0 +1,92 @@
+[0.025s] Invoking command in '/home/aboidrees/Desktop/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/aboidrees/Desktop/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aboidrees/Desktop/my_bot/install/my_bot
+[0.142s] -- The C compiler identification is GNU 9.4.0
+[0.255s] -- The CXX compiler identification is GNU 9.4.0
+[0.264s] -- Check for working C compiler: /usr/bin/cc
+[0.391s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.391s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.524s] -- Detecting C compile features
+[0.526s] -- Detecting C compile features - done
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++
+[0.670s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.672s] -- Detecting CXX compiler ABI info
+[0.817s] -- Detecting CXX compiler ABI info - done
+[0.841s] -- Detecting CXX compile features
+[0.841s] -- Detecting CXX compile features - done
+[0.857s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.894s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.895s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.285s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.403s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.459s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.460s] -- Configured cppcheck include dirs: 
+[1.460s] -- Configured cppcheck exclude dirs and/or files: 
+[1.514s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.514s] -- Configured cpplint exclude dirs and/or files: 
+[1.521s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.538s] -- Added test 'lint_cmake' to check CMake code style
+[1.545s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.600s] -- Added test 'uncrustify' to check C / C++ code style
+[1.600s] -- Configured uncrustify additional arguments: 
+[1.607s] -- Added test 'xmllint' to check XML markup files
+[1.611s] -- Configuring done
+[1.615s] -- Generating done
+[1.618s] -- Build files have been written to: /home/aboidrees/Desktop/my_bot/build/my_bot
+[1.624s] Invoked command in '/home/aboidrees/Desktop/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/aboidrees/Desktop/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aboidrees/Desktop/my_bot/install/my_bot
+[1.629s] Invoking command in '/home/aboidrees/Desktop/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/aboidrees/Desktop/my_bot/build/my_bot -- -j4 -l4
+[1.701s] Invoked command in '/home/aboidrees/Desktop/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/aboidrees/Desktop/my_bot/build/my_bot -- -j4 -l4
+[1.723s] Invoking command in '/home/aboidrees/Desktop/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/aboidrees/Desktop/my_bot/build/my_bot
+[1.736s] -- Install configuration: ""
+[1.737s] -- Execute custom install script
+[1.738s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/ball_tracker_params_robot.yaml
+[1.755s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/ball_tracker_params_sim.yaml
+[1.771s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/drive_bot.rviz
+[1.786s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[1.801s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+[1.816s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[1.831s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/joystick.yaml
+[1.846s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/main.rviz
+[1.875s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/map.rviz
+[1.879s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.893s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.907s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/nav2_params.yaml
+[1.923s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/twist_mux.yaml
+[1.946s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.962s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/camera.xacro
+[1.978s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/depth_camera.xacro
+[1.995s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/face.xacro
+[2.011s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[2.029s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[2.044s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[2.062s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[2.078s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[2.095s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[2.113s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/ball_tracker.launch.py
+[2.130s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/camera.launch.py
+[2.146s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py
+[2.161s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[2.176s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[2.193s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/localization_launch.py
+[2.208s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/navigation_launch.py
+[2.224s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/online_async_launch.py
+[2.240s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[2.261s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[2.277s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[2.292s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/worlds/obstacles.world
+[2.308s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[2.324s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[2.343s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[2.359s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[2.375s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[2.390s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[2.404s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[2.419s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[2.434s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[2.449s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[2.464s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/package.dsv
+[2.479s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[2.493s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[2.508s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[2.523s] -- Symlinking: /home/aboidrees/Desktop/my_bot/install/my_bot/share/my_bot/package.xml
+[2.543s] Invoked command in '/home/aboidrees/Desktop/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/aboidrees/Desktop/my_bot/build/my_bot
