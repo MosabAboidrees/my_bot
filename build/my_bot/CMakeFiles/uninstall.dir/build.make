@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aboidrees/Desktop/my_bot
+CMAKE_SOURCE_DIR = /home/robo/Desktop/my_bot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aboidrees/Desktop/my_bot/build/my_bot
+CMAKE_BINARY_DIR = /home/robo/Desktop/my_bot/build/my_bot
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/aboidrees/Desktop/my_bot/build/my_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aboidrees/Desktop/my_bot /home/aboidrees/Desktop/my_bot /home/aboidrees/Desktop/my_bot/build/my_bot /home/aboidrees/Desktop/my_bot/build/my_bot /home/aboidrees/Desktop/my_bot/build/my_bot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robo/Desktop/my_bot/build/my_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robo/Desktop/my_bot /home/robo/Desktop/my_bot /home/robo/Desktop/my_bot/build/my_bot /home/robo/Desktop/my_bot/build/my_bot /home/robo/Desktop/my_bot/build/my_bot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
