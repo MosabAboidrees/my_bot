@@ -1,1 +1,1 @@
-/home/robo/Desktop/my_bot/launch/launch_sim.launch.py
+/home/robo/dev_ws/my_bot/launch/launch_sim.launch.py

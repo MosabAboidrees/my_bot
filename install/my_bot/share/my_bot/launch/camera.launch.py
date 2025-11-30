@@ -1,1 +1,1 @@
-/home/robo/Desktop/my_bot/launch/camera.launch.py
+/home/robo/dev_ws/my_bot/launch/camera.launch.py

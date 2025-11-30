@@ -1,8 +1,8 @@
-# Install script for directory: /home/robo/Desktop/my_bot
+# Install script for directory: /home/robo/dev_ws/my_bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robo/Desktop/my_bot/install/my_bot")
+  set(CMAKE_INSTALL_PREFIX "/home/robo/dev_ws/my_bot/install/my_bot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/robo/Desktop/my_bot/build/my_bot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/robo/dev_ws/my_bot/build/my_bot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robo/Desktop/my_bot/build/my_bot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robo/dev_ws/my_bot/build/my_bot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

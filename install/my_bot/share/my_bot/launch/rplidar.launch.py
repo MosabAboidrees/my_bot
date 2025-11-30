@@ -1,1 +1,1 @@
-/home/robo/Desktop/my_bot/launch/rplidar.launch.py
+/home/robo/dev_ws/my_bot/launch/rplidar.launch.py

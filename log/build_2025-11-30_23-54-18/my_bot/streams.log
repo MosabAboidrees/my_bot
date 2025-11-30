@@ -1,0 +1,92 @@
+[0.054s] Invoking command in '/home/robo/dev_ws/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robo/dev_ws/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/dev_ws/my_bot/install/my_bot
+[0.713s] -- The C compiler identification is GNU 9.4.0
+[1.446s] -- The CXX compiler identification is GNU 9.4.0
+[1.473s] -- Check for working C compiler: /usr/bin/cc
+[1.830s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.835s] -- Detecting C compiler ABI info
+[2.147s] -- Detecting C compiler ABI info - done
+[2.188s] -- Detecting C compile features
+[2.190s] -- Detecting C compile features - done
+[2.202s] -- Check for working CXX compiler: /usr/bin/c++
+[2.545s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.549s] -- Detecting CXX compiler ABI info
+[2.896s] -- Detecting CXX compiler ABI info - done
+[2.938s] -- Detecting CXX compile features
+[2.940s] -- Detecting CXX compile features - done
+[2.977s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.127s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.027s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.343s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.833s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.914s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.915s] -- Configured cppcheck include dirs: 
+[4.915s] -- Configured cppcheck exclude dirs and/or files: 
+[4.995s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.996s] -- Configured cpplint exclude dirs and/or files: 
+[5.009s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.031s] -- Added test 'lint_cmake' to check CMake code style
+[5.044s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.126s] -- Added test 'uncrustify' to check C / C++ code style
+[5.127s] -- Configured uncrustify additional arguments: 
+[5.140s] -- Added test 'xmllint' to check XML markup files
+[5.156s] -- Configuring done
+[5.166s] -- Generating done
+[5.173s] -- Build files have been written to: /home/robo/dev_ws/my_bot/build/my_bot
+[5.186s] Invoked command in '/home/robo/dev_ws/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robo/dev_ws/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/dev_ws/my_bot/install/my_bot
+[5.197s] Invoking command in '/home/robo/dev_ws/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robo/dev_ws/my_bot/build/my_bot -- -j4 -l4
+[5.373s] Invoked command in '/home/robo/dev_ws/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robo/dev_ws/my_bot/build/my_bot -- -j4 -l4
+[5.425s] Invoking command in '/home/robo/dev_ws/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robo/dev_ws/my_bot/build/my_bot
+[5.463s] -- Install configuration: ""
+[5.465s] -- Execute custom install script
+[5.469s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/ball_tracker_params_robot.yaml
+[5.508s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/ball_tracker_params_sim.yaml
+[5.548s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/drive_bot.rviz
+[5.587s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[5.626s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+[5.666s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[5.704s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/joystick.yaml
+[5.745s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/main.rviz
+[5.784s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/map.rviz
+[5.823s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[5.863s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[5.902s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/nav2_params.yaml
+[5.941s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/twist_mux.yaml
+[5.979s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[6.020s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/camera.xacro
+[6.059s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/depth_camera.xacro
+[6.098s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/face.xacro
+[6.137s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[6.176s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[6.215s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[6.255s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[6.294s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[6.333s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[6.374s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/ball_tracker.launch.py
+[6.413s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/camera.launch.py
+[6.452s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py
+[6.491s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[6.531s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[6.571s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/localization_launch.py
+[6.610s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/navigation_launch.py
+[6.649s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/online_async_launch.py
+[6.688s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[6.733s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[6.797s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[6.847s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/worlds/obstacles.world
+[6.887s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[6.928s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[6.968s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[7.008s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[7.048s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[7.088s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[7.127s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[7.168s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[7.208s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[7.248s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[7.287s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/package.dsv
+[7.328s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[7.368s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[7.407s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[7.447s] -- Symlinking: /home/robo/dev_ws/my_bot/install/my_bot/share/my_bot/package.xml
+[7.492s] Invoked command in '/home/robo/dev_ws/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robo/dev_ws/my_bot/build/my_bot
