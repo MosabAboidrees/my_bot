@@ -1,4 +1,0 @@
-Invoking command in '/home/robo/dev_ws/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robo/dev_ws/my_bot/build/my_bot -- -j4 -l4
-Invoked command in '/home/robo/dev_ws/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robo/dev_ws/my_bot/build/my_bot -- -j4 -l4
-Invoking command in '/home/robo/dev_ws/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robo/dev_ws/my_bot/build/my_bot
-Invoked command in '/home/robo/dev_ws/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robo/dev_ws/my_bot/build/my_bot
